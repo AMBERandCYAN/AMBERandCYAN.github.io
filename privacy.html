@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー | Nekonote Analytics</title>
+<style>body{margin:0;padding:3rem 1.25rem;font:1rem/1.75 system-ui,sans-serif;color:#20242c;background:#faf9f7}main{max-width:46rem;margin:auto}a{color:#17458a}nav{margin-top:2rem}</style>
+</head>
+<body><main><h1>プライバシーポリシー</h1><p>2026年11月11日制定</p><p>Nekonote Analyticsは「猫の手も貸したい」の運営者本人が使うWindowsアプリです。対象チャンネルの照合と、サムネイルの表示回数・クリック率の分析にYouTube APIサービスを利用します。</p><h2>権限と取得データ</h2><ul><li>YouTubeアカウントの表示権限（<code>youtube.readonly</code>）を使い、認証したチャンネルのIDを照合します。アプリがこの権限で取得するデータは、照合用のチャンネルIDに限ります。</li><li>分析レポートの表示権限（<code>yt-analytics.readonly</code>）を使い、YouTubeが生成した日次CSVを取得します。項目は日付、チャンネルID、動画ID、表示回数、クリック率、レポートに応じて流入元やデバイスの情報です。</li></ul><h2>保存と利用</h2><p>OAuth認証情報はWindowsのユーザー単位の暗号化で保護し、<code>%LOCALAPPDATA%\NekonoteYouTubeAnalytics</code> に保存します。CSVは回収プログラムの <code>reports</code> フォルダに平文で保存します。保存期間は認証が有効で、分析に必要な期間です。アプリによるCSVの外部アップロードや第三者提供はありません。</p><h2>許可の取り消しと削除</h2><p><a href="https://security.google.com/settings/security/permissions">Googleアカウントの接続先設定</a>でアプリのアクセスを取り消せます。PC上のファイルは個別に削除します。運営者は認証を取り消した場合、7日以内に認証情報、<code>reports</code> フォルダ、<code>report_state.json</code> を削除します。これはPCに保存したデータの削除です。YouTube側の日次レポートジョブは <a href="https://developers.google.com/youtube/reporting/v1/reference/rest/v1/jobs/delete">Reporting APIの削除手順</a>で停止できます。</p><h2>このサイトとお問い合わせ</h2><p>GitHub Pagesで公開している説明サイトです。サイト独自のCookie、フォーム、アクセス解析は使用していません。Googleの所有確認タグを設置しています。GitHubによるリクエストログの取り扱いは<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHubのプライバシー声明</a>をご覧ください。</p><p>Googleによる情報の取り扱いは<a href="https://policies.google.com/privacy">Googleプライバシーポリシー</a>をご覧ください。お問い合わせ先は運営者の<a href="https://github.com/AMBERandCYAN">GitHubプロフィール</a>です。</p><nav><a href="./">ホーム</a> · <a href="privacy.html">プライバシーポリシー</a> · <a href="terms.html">利用規約</a> · <a href="https://github.com/AMBERandCYAN">お問い合わせ</a></nav></main></body>
+</html>
